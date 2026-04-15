@@ -46,6 +46,6 @@ btn.addEventListener("click", () => {
         result.innerHTML = `Bada number try kar soch na(Attempts: ${attempts})`;
     }
     else {
-        result.innerHTML = `🎉 Chl itne tukke maar kr Jeet gaya! Total attempts: ${attempts}`;
+        result.innerHTML = `🎉 Chl itne tukke maar kr Jeet gaya! yehi h answer:${x} Total attempts: ${attempts}`;
     }
 });
