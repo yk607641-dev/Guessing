@@ -46,6 +46,6 @@ btn.addEventListener("click", () => {
         result.innerHTML = `“🔥 Guess ko boost karo… number abhi aur bada hai!”(Attempts: ${attempts})`;
     }
     else {
-        result.innerHTML = `“🎊🎉 Badhai ho! Tum jeet gaye! 🏆🥳🔥”:${x} Total attempts: ${attempts}`;
+        result.innerHTML = `🎊🎉 Badhai ho! Tum jeet gaye! 🏆🥳🔥${x} is the correct number: Total attempts: ${attempts}`;
     }
 });
