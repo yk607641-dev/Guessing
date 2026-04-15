@@ -40,12 +40,12 @@ btn.addEventListener("click", () => {
     attempts++;
 
     if (guess > x) {
-        result.innerHTML = `Chota number try kar dimag lga (Attempts: ${attempts})`;
+        result.innerHTML = `“📉 Thoda aur dimag lagao… number bada nahi, chhota hai!” (Attempts: ${attempts})`;
     }
     else if (guess < x) {
-        result.innerHTML = `Bada number try kar soch na(Attempts: ${attempts})`;
+        result.innerHTML = `“🔥 Guess ko boost karo… number abhi aur bada hai!”(Attempts: ${attempts})`;
     }
     else {
-        result.innerHTML = `🎉 Chl itne tukke maar kr Jeet gaya! yehi h answer:${x} Total attempts: ${attempts}`;
+        result.innerHTML = `“🎊🎉 Badhai ho! Tum jeet gaye! 🏆🥳🔥”:${x} Total attempts: ${attempts}`;
     }
 });
